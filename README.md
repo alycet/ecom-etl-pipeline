@@ -32,7 +32,6 @@ ETL pipeline for ecommerce data using Microsoft Azure
 
 ```
 pip install pandas
-
 ```
 
 ## Project Execution Flow
