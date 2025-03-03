@@ -23,13 +23,15 @@ ETL pipeline for ecommerce data using Microsoft Azure
 
 
 ## Sevices/Tools Used
-
+1. **Azure DataFactory**:
+2. **Azure Data Lake Storage**:
+3. **Azure Databricks**:
 
 
 ## Packages
 
 ```
-
+pip install pandas
 
 ```
 
