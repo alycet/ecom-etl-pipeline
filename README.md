@@ -34,7 +34,7 @@ ETL pipeline for ecommerce data using Microsoft Azure
 ```
 
 ## Project Execution Flow
-[Back to table of contents](https://github.com/alycet/ecom-etl-pipeline/blob/main/Ecom-Azure-ETL-Architecture.png)
+[Back to table of contents](https://github.com/alycet/ecom-etl-pipeline/tree/main?tab=readme-ov-file#ecommerce-etl-pipeline)
 
 
 
