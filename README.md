@@ -17,7 +17,7 @@ ETL pipeline for ecommerce data using Microsoft Azure
 
 
 ## System Architecture
-![Architecture Diagram]()
+![Architecture Diagram](https://github.com/alycet/ecom-etl-pipeline/blob/main/Ecom-Azure-ETL-Architecture.png)
 ## About the Data
 
 
