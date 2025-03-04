@@ -8,7 +8,7 @@
 - [About the Data](https://github.com/alycet/ecom-etl-pipeline/blob/main/README.md#about-the-data)
 - [Services/Tools Used](https://github.com/alycet/ecom-etl-pipeline/blob/main/README.md#sevicestools-used)
 - [Packages](https://github.com/alycet/ecom-etl-pipeline/blob/main/README.md#packages)
-- [Project Execution Flow](https://github.com/alycet/ecom-etl-pipeline/blob/main/README.md#packages)
+- [Project Execution Flow]([https://github.com/alycet/ecom-etl-pipeline/blob/main/README.md#packages](https://github.com/alycet/ecom-etl-pipeline/blob/main/README.md#project-execution-flow))
 
 
 ## Introduction
