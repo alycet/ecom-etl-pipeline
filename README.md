@@ -21,6 +21,7 @@ The ETL pipeline utilizes Azure Data Factory for data ingestion, transferring ra
 ## System Architecture
 ![Architecture Diagram](https://github.com/alycet/ecom-etl-pipeline/blob/main/Ecom-Azure-ETL-Architecture.png)
 ## About the Data
+This dataset, sourced from a C2C fashion e-commerce platform with over 9 million users, serves as a benchmark for understanding user behavior. It captures data related to both sellers and buyers, offering insights into activity levels, performance, and growth potential. Designed to address common uncertainties in managing e-commerce stores, it helps analyze user engagement and compare store metrics. You can download the dataset [here](https://data.world/)
 
 
 
@@ -44,7 +45,7 @@ pip install pandas
     - Configure Azure credentials and connect the Data Factoru, Data Lake Storage, and Databricks for seamless data integration.
 2. Prepare Data:
    	- execute script to chuck user data into 10 csv files.
-	- user data is large and may change so we split into 10 chunks that will be uploaded to landing zone manually to simulate real word data ingestion. 
+	- user data is large and may change so we split into 10 chunks that will be uploaded to landing zone manually to simulate real world data ingestion. 
 3. Create Landing Zones in Data Lake Storage:
     - Create landing-zone-1 container where raw csv files will be manually uploaded.(represents rdms of other external data storage in real world)
 	- Create landing-zone-2 that will act as the sink raw storage location for the azure data pipelines.
