@@ -82,7 +82,6 @@ pip install pandas
 7. **Testing and Validation**:
 
    - Validate the data at each stage of the pipeline (Bronze, Silver, Gold) to ensure accuracy and integrity.
-   - Run queries on the Delta Lake to confirm the data aligns with business requirements.
 
 8. **Usage**:
 
