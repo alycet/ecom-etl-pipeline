@@ -68,22 +68,22 @@ pip install pandas
 
 5. **Data Transformation using Azure Databricks**:
 
-    - Process the raw data in Databricks using Apache Spark, performing data cleaning and enrichment.
+    - Process the raw data in Databricks using Apache Spark, performing data cleaning and enrichment in bronze, silver, and gold notebooks.
     - Apply the Medallion Architecture:
-      - Bronze Layer: Store raw data.
-      - Silver Layer: Clean and structure the data, resolving duplicates, handling missing values, and deriving additional columns for data enrichment
-      - Gold Layer: Join and prepare the data for analytics, creating one big table..
+      - Bronze Layer: Stores raw data.
+      - Silver Layer: Cleans and structurse the data, resolving duplicates, handling missing values, and deriving additional columns for data enrichment
+      - Gold Layer: Joins and preparse the data for analytics, creating one big table.
 
 6. **Data Loading and Automation**:
 
-   - Store the transformed data in a Databricks Delta Lake, leveraging its ACID properties for reliable storage and fast querying.
-   - Organize the Delta Lake into Gold-layer tables optimized for analytics use cases.
+   - Create databricks wokflow, triggered when new data lands in landing zone 2, to run each notebook in the medallion architecture as a task.
+   - Transformed data is stored in a Databricks Delta Lake, leveraging its ACID properties for reliable storage and fast querying.
 
-7. **Testing and Validation**:
+8. **Testing and Validation**:
 
    - Validate the data at each stage of the pipeline (Bronze, Silver, Gold) to ensure accuracy and integrity.
 
-8. **Usage**:
+9. **Usage**:
 
    - Use Databricks SQL to explore and analyze the data in the Gold Layer.
    - Integrate with business intelligence tools to generate visualizations and insights for e-commerce performance.
