@@ -22,7 +22,8 @@ The ETL pipeline utilizes Azure Data Factory for data ingestion, transferring ra
 ## System Architecture
 ![Architecture Diagram](https://github.com/alycet/ecom-etl-pipeline/blob/main/Ecom-Azure-ETL-Architecture.png)
 ## About the Data
-This dataset, sourced from a C2C fashion e-commerce platform with over 9 million users, serves as a benchmark for understanding user behavior. It captures data related to both sellers and buyers, offering insights into activity levels, performance, and growth potential. Designed to address common uncertainties in managing e-commerce stores, it helps analyze user engagement and compare store metrics. You can download the dataset [here](https://data.world/)
+This dataset, sourced from a C2C fashion e-commerce platform with over 9 million users, serves as a benchmark for understanding user behavior. It captures data related to both sellers and buyers, offering insights into activity levels, performance, and growth potential. Designed to address common uncertainties in managing e-commerce stores, it helps analyze user engagement and compare store metrics. You can download the dataset [here.](https://data.world/)
+
 
 [Back to table of contents](https://github.com/alycet/ecom-etl-pipeline/tree/main?tab=readme-ov-file#ecommerce-etl-pipeline)
 
